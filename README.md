@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Aayam Pokharel</h1>
+<h1 align="center">Hi  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" alt="Hi" height="50" width="50"/>, I'm Aayam Pokharel</h1>
 <h3 align="center">A passionate developer from Nepal, specializing in building intuitive and engaging frontend & backend experiences.</h3>
 
-<p align="center">
+<p align="center"> 
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=aayampokharel" alt="aayampokharel" />
   </a>
