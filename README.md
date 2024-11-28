@@ -7,6 +7,26 @@
   </a>
 </p>
 
+###
+
+###
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aayampokharel&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aayampokharel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
+</div>
+
+###
+
+
+
+###
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/aayampokharel/aayampokharel/output/snake.svg" alt="Snake animation" />
+
+###
+
 - 🌱 I’m currently learning **Dart, Flutter, Go, MySQL**.
 - 💬 Ask me about **mobile development**, **backend solutions**, or **database management**.
 - 📫 How to reach me: **[aayam.pokharel@gmail.com](mailto:aayam.pokharel@gmail.com)**
@@ -16,12 +36,18 @@
 
 ### 🔗 **Connect with me:**
 <p align="center">
-  <a href="https://www.linkedin.com/in/aayam-pokharel-434ba6205/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Aayam Pokharel's LinkedIn" height="40" width="40" />
+  <div align="center">
+  <a href="https://instagram.com/pokharel_aayam" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo" />
   </a>
-  <a href="https://instagram.com/pokharel_aayam" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="pokharel_aayam" height="40" width="40" />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo" />
+  <a href="aayam.pokharel@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" />
   </a>
+  <a href="https://www.linkedin.com/in/aayam-pokharel-434ba6205/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
+  </a>
+</div>
  
 </p>
 
