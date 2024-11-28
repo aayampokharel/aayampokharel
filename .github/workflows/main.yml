@@ -2,7 +2,7 @@ name: Generate Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Every 12 hours
+    - cron: "0 */12 * * *"  # every 12 hours
   workflow_dispatch:
   push:
     branches:
@@ -24,14 +24,22 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       # Debug: Check if the files were generated
       - name: List files in dist directory
         run: |
           echo "Checking files in dist directory"
           ls -al dist
 
-      # Step 2: Push the SVG files to the 'output' branch
+      # Step 2: Checkout the main branch and create the 'output' branch if it doesn't exist
+      - name: Checkout main branch and create output branch if needed
+        run: |
+          git checkout main
+          git fetch origin
+          git checkout -b output || git checkout output
+          git push origin output
+
+      # Step 3: Push SVG files to the 'output' branch
       - name: Push SVG files to 'output' branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
