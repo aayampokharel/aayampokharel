@@ -12,9 +12,13 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
-      # Step 1: Generate the SVG animation from GitHub contributions
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Generate the SVG animation from GitHub contributions
       - name: Generate GitHub Contribution Grid Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
@@ -31,15 +35,15 @@ jobs:
           echo "Checking files in dist directory"
           ls -al dist
 
-      # Step 2: Checkout the main branch and create the 'output' branch if it doesn't exist
-      - name: Checkout main branch and create output branch if needed
+      # Step 3: Checkout main and create/update the output branch
+      - name: Checkout main and create/update output branch
         run: |
           git checkout main
-          git fetch origin
+          git pull origin main  # Pull latest changes from the main branch
           git checkout -b output || git checkout output
-          git push origin output
+          git push origin output --force  # Force push to avoid conflicts
 
-      # Step 3: Push SVG files to the 'output' branch
+      # Step 4: Push SVG files to the 'output' branch
       - name: Push SVG files to 'output' branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
