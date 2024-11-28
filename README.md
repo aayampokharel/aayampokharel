@@ -23,7 +23,7 @@
 ###
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/aayampokharel/aayampokharel/output/snake.svg" alt="Snake animation" />
+ ![Snake animation](https://github.com/aayampokharel/aayampokharel/blob/output/github-contribution-grid-snake.svg)
 
 ###
 
