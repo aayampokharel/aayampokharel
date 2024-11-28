@@ -11,18 +11,39 @@
 
 ###
 
+
+<h1>Github stats & activities: </h1>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aayampokharel&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aayampokharel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
-</div>
+ <img src="https://github-readme-stats.vercel.app/api?username=aayampokharel&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="aayampokharel's Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayampokharel&theme=tokyonight&show_icons=true&hide_border=true&layout=compact" alt="aayampokharel's Top Languages">
 
-###
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=aayampokharel&theme=tokyonight&hide_border=true" alt="aayampokharel's Streak"> </div>
 
 
+
+  <h1>💼 <strong>My Top 3 Projects:</strong></h1>
+
+<details>
+  <br>
+  
+  <strong>1. <a href="https://github.com/aayampokharel/messenger">Messenger - Live Chat App</a>:</strong>  
+  A simple <strong>live chat app</strong> using <strong>MySQL</strong> to fetch old messages. It also supports live message sending and live connections. This project demonstrates backend integration with databases for real-time communication.
+
+  <br>
+
+  <strong>2. <a href="https://github.com/aayampokharel/gartic-clone">Gartic Clone - Online Drawing & Guessing Game</a>:</strong>  
+  A <strong>clone of the Gartic drawing and guessing game</strong> where users can play in real-time. This app uses <strong>WebSockets</strong> for real-time drawing and guessing interactions, without a database. A fun and interactive game where you can chat and guess in live sessions.
+
+ <br>
+
+  <strong>3. <a href="https://github.com/aayampokharel/the_librarian">The Librarian - Book Management System</a>:</strong>  
+  A <strong>book management app</strong> built using <strong>Flutter</strong>, <strong>Golang</strong>, and <strong>MySQL</strong>. It fetches book names from a database, and users can search if a book is available for borrowing. This app combines mobile development with backend logic and database management to create a fully functional system.
+
+</details>
 
 ###
 <br clear="both">
-<h1>GitHub Contribution</h1>
+<h1>   GitHub Contribution</h1>   
 
  ![Snake animation](https://github.com/aayampokharel/aayampokharel/blob/output/github-contribution-grid-snake-dark.svg)
 
@@ -115,36 +136,7 @@
 
 ---
 
-### 📊 **GitHub Stats & Activity**
 
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=aayampokharel&show_icons=true&locale=en&layout=compact" alt="aayampokharel" />
-</p>
-
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=aayampokharel&show_icons=true&locale=en" alt="aayampokharel" />
-</p>
-
-<p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aayampokharel&" alt="aayampokharel" />
-</p>
-
----
-
-### 💼 **My Projects:**
-
-Here are some of my highlighted projects:
-
-1. **[Messenger - Live Chat App](https://github.com/aayampokharel/messenger):**  
-   A simple **live chat app** using **MySQL** to fetch old messages. It also supports live message sending and live connections. This project demonstrates backend integration with databases for real-time communication.
-
-2. **[Gartic Clone - Online Drawing & Guessing Game](https://github.com/aayampokharel/gartic-clone):**  
-   A **clone of the Gartic drawing and guessing game** where users can play in real-time. This app uses **WebSockets** for real-time drawing and guessing interactions, without a database. A fun and interactive game where you can chat and guess in live sessions.
-
-3. **[The Librarian - Book Management System](https://github.com/aayampokharel/the_librarian):**  
-   A **book management app** built using **Flutter**, **Golang**, and **MySQL**. It fetches book names from a database, and users can search if a book is available for borrowing. This app combines mobile development with backend logic and database management to create a fully functional system.
-
----
 
 ### 👨‍💻 **Let's Collaborate:**
 If you're interested in collaborating on projects, feel free to reach out to me. I'm always looking to work on exciting new challenges and expand my knowledge.
@@ -153,4 +145,4 @@ If you're interested in collaborating on projects, feel free to reach out to me.
 
 
 
-](https://github.com/aayampokharel/aayampokharel/edit/main/README.md)
+
