@@ -2,7 +2,7 @@ name: Generate Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # every 12 hours
+    - cron: "0 */12 * * *"  # Every 12 hours
   workflow_dispatch:
   push:
     branches:
@@ -27,11 +27,13 @@ jobs:
           
       # Debug: Check if the files were generated
       - name: List files in dist directory
-        run: ls -l dist
+        run: |
+          echo "Checking files in dist directory"
+          ls -al dist
 
       # Step 2: Push the SVG files to the 'output' branch
       - name: Push SVG files to 'output' branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
