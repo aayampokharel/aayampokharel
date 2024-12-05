@@ -36,7 +36,7 @@
 
  <br>
 
-  <strong>3. <a href="https://github.com/aayampokharel/the_librarian">The Librarian - Book Management System</a>:</strong>  
+  <strong>3. <a href="https://github.com/aayampokharel/Librarian_app">The Librarian - Book Management System</a>:</strong>  
   A <strong>book management app</strong> built using <strong>Flutter</strong>, <strong>Golang</strong>, and <strong>MySQL</strong>. It fetches book names from a database, and users can search if a book is available for borrowing. This app combines mobile development with backend logic and database management to create a fully functional system.
 
 </details>
