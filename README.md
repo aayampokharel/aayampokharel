@@ -23,7 +23,7 @@
 
   <h1>💼 <strong>My Top 3 Projects:</strong></h1>
 
-<details>
+
   <br>
   
   <strong>1. <a href="https://github.com/aayampokharel/messenger">Messenger - Live Chat App</a>:</strong>  
@@ -39,7 +39,7 @@
   <strong>3. <a href="https://github.com/aayampokharel/Librarian_app">The Librarian - Book Management System</a>:</strong>  
   A <strong>book management app</strong> built using <strong>Flutter</strong>, <strong>Golang</strong>, and <strong>MySQL</strong>. It fetches book names from a database, and users can search if a book is available for borrowing. This app combines mobile development with backend logic and database management to create a fully functional system.
 
-</details>
+
 
 ###
 <br clear="both">
