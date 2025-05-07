@@ -20,9 +20,12 @@
 
 ### 🚀 Choose a Tech Stack to Explore Projects:
 
-<details>
 
-<summary><h3>🟦 FLUTTER PROJECTS</h3></summary>
+
+<details class="custom-details">
+<summary style="direction: rtl;">🟦 FLUTTER PROJECTS </summary>
+
+
   <br>
 
 
@@ -62,8 +65,8 @@
 
 </details>
 
-<details>
- <summary><h3>🟨 GOLANG PROJECTS</h3></summary>
+<details class="custom-details">
+<summary style="direction: rtl;">🟨 GOLANG PROJECTS</summary>
 
   <br>
 
