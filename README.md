@@ -51,7 +51,6 @@
 [View on GitHub](https://github.com/aayampokharel/messenger)  
 
 ---
-
 ## 🏏 **BatHub** - Cricket Bat Explorer  
 **Tech**: Flutter, Carousel Slider  
 **Features**:  
@@ -69,6 +68,23 @@
 <summary style="direction: rtl;">🟨 GOLANG PROJECTS</summary>
 
   <br>
+
+### DocSniff – Academic Certificate Blockchain
+Private • Permissioned • Byzantine-Fault-Tolerant Consortium Blockchain<br>
+Built 100 % from scratch in Go<br>
+**Tech Stack**: Flutter, Go, PostgreSQL ,HTML,CSS,Python 
+
+**Core Features**:
+- Blockchain Core: Go (Golang) – clean architecture, goroutines, channels, context
+- Frontend: Flutter Web – responsive admin & institution dashboard
+- Consensus: Hybrid Simplified PoW + PBFT (Pre-Prepare → Prepare → Commit → Execute) with RSA-signed messages
+- Cryptography: RSA key pairs, SHA-256 Merkle Trees with inclusion proofs
+- Networking: Custom raw TCP peer-to-peer protocol + real-time broadcasting
+- Database: PostgreSQL (8 normalized tables), hashed credentials, secure Base64(institution logos,authority signatures) storage
+- Image Processing: Python ML background-removal called as subprocess from Go
+- Public Access: Secure Go reverse proxy + Pinggy tunnel for QR-code verification endpoint
+[View on GitHub](https://github.com/aayampokharel/fyp_backend)  
+---
 
 ### ☁️ **SE Drive** - Cloud Storage System
 
