@@ -171,9 +171,16 @@ Built 100 % from scratch in Go<br>
   </a>
    <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/PostgreSQL-Dark.svg" alt="postgreSQL" width="40" height="40"/>
+   </a>
    <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Docker.svg" alt="Docker" width="40" height="40"/>
   </a>
+   <a href="" target="_blank" rel="noreferrer">
+    <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Bash-Dark.svg" alt="bash" width="40" height="40"/>
+   </a>
+   <a href="" target="_blank" rel="noreferrer">
+    <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/GithubActions-Dark.svg" alt="github actions" width="40" height="40"/>
+   </a>
       <a href="https://www.postman.com/" target="_blank" rel="noreferrer">
     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Postman.svg" alt="postman" width="40" height="40"/>
   </a>
