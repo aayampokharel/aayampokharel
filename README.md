@@ -175,10 +175,10 @@ Built 100 % from scratch in Go<br>
    <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Docker.svg" alt="Docker" width="40" height="40"/>
   </a>
-   <a href="" target="https://www.gnu.org/software/bash/" rel="noreferrer">
+   <a href="" target="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Bash-Dark.svg" alt="bash" width="40" height="40"/>
    </a>
-   <a href="" target="https://github.com/features/actions" rel="noreferrer">
+   <a href="" target="https://github.com/features/actions" target="_blank" rel="noreferrer">
     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/GithubActions-Dark.svg" alt="github actions" width="40" height="40"/>
    </a>
       <a href="https://www.postman.com/" target="_blank" rel="noreferrer">
