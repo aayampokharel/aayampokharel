@@ -8,6 +8,7 @@
 </p>
 
 <h1>Github stats & activities: </h1>
+<div align="center"> <img src="https://streak-stats.demolab.com?user=aayampokharel&theme=default&hide_border=true" alt="aayampokharel's Stats"></div>
 <div align="center">
  <img src="https://github-readme-stats.vercel.app/api?username=aayampokharel&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="aayampokharel's Stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayampokharel&theme=tokyonight&show_icons=true&hide_border=true&layout=compact" alt="aayampokharel's Top Languages"> 
