@@ -197,6 +197,12 @@ Built 100 % from scratch in Go<br>
    <a href="https://github.com/" target="_blank" rel="noreferrer">
     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Mint-Dark.svg" alt="linux_mint" width="40" height="40"/>
   </a>
+   <a href="https://github.com/" target="_blank" rel="noreferrer">
+    <img src="https://github.com/homarr-labs/dashboard-icons/blob/main/svg/hetzner.svg" alt="hetzner.com" width="85" height="40"/>
+  </a>
+   <a href="https://github.com/" target="_blank" rel="noreferrer">
+    <img src="https://github.com/homarr-labs/dashboard-icons/blob/main/svg/dokploy-dark.svg" alt="dokploy" width="40" height="40"/>
+  </a>
    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" alt="html5" width="40" height="40"/>
   </a>
