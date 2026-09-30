@@ -29,7 +29,7 @@ I'm a backend engineer who writes Go for a living and for fun. I've spent **1+ y
 
 **Backend**
 <br/>
-<img src="https://skillicons.dev/icons?i=go,postgres,mysql,redis,docker,githubactions,linux,nginx,bash,git&perline=10" alt="backend stack"/>
+<img src="https://skillicons.dev/icons?i=go,postgres,mysql,redis,docker,githubactions,linux,bash,git&perline=10" alt="backend stack"/>
 
 **Also**
 <br/>
