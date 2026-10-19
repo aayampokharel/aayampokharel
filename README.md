@@ -16,11 +16,11 @@
 
 ## 👨‍💻 About me
 
-I'm a backend engineer who writes Go for a living and for fun. I've spent **1+ years building production backends** (REST APIs, caching, query optimization, Docker/CI-CD), and outside work I build and ship my own systems: a live EdTech platform, a Byzantine-fault-tolerant blockchain written from scratch, and real-time multiplayer backends.
+I'm a backend engineer who writes Go for a living and for fun. I have **1+ years of professional experience** building REST APIs, caching layers, optimized queries and Dockerized deployments. Outside work, I build and ship my own systems: a live EdTech platform, a Byzantine-fault-tolerant blockchain written from scratch, and real-time multiplayer backends.
 
-- 🔭 Interested in **concurrency, distributed systems, consensus, and real-time systems**
-- 🌱 Currently deepening: **system design, gRPC, and observability**
-- 🎓 BSc CSIT graduate, St. Xavier's College
+- 🔭 Interested in **concurrency, distributed systems, consensus and real-time systems**
+- 🌱 Currently deepening: **automated testing in Go, system design, gRPC and observability**
+- 🎓 BSc CSIT, St. Xavier's College
 - 💬 Ask me about: Go, clean architecture, PostgreSQL, WebSockets, deploying on a VPS
 
 ---
@@ -29,11 +29,11 @@ I'm a backend engineer who writes Go for a living and for fun. I've spent **1+ y
 
 **Backend**
 <br/>
-<img src="https://skillicons.dev/icons?i=go,postgres,mysql,redis,docker,githubactions,linux,bash,git&perline=10" alt="backend stack"/>
+<img src="https://skillicons.dev/icons?i=go,postgres,mysql,redis,docker,githubactions,linux,bash,git&perline=9" alt="backend stack"/>
 
 **Also**
 <br/>
-<img src="https://skillicons.dev/icons?i=python,dart,flutter,html,css&perline=10" alt="other stack"/>
+<img src="https://skillicons.dev/icons?i=python,dart,flutter&perline=9" alt="other stack"/>
 
 `Gin` · `Huma (OpenAPI)` · `GORM` · `gRPC / Protobuf` · `WebSockets` · `JWT / OAuth2` · `Zap` · `Atlas migrations` · `Dokploy` · `Hetzner Cloud`
 
@@ -41,40 +41,57 @@ I'm a backend engineer who writes Go for a living and for fun. I've spent **1+ y
 
 ## 🚀 Featured projects
 
-### 🎓 [SafalTopper](https://safaltopper.com) — live EdTech platform
+### 🎓 [SafalTopper](https://safaltopper.com): live EdTech platform
 `Go` `Gin` `Huma` `GORM` `PostgreSQL` `JWT` `Google OAuth2` `Docker` `GitHub Actions` `Dokploy` `Hetzner`
 
-Entrance-exam preparation platform for BSc CSIT aspirants, running in production.
+MCQ practice platform for Nepali entrance-exam students, running in production with **100+ registered students from organic growth alone**.
 - Typed, auto-validated REST APIs with OpenAPI docs (Gin + Huma)
 - Stateless auth with JWT and Google OAuth2
 - Clean Architecture: domain logic decoupled from GORM and the delivery layer
+- Event-tracking pipeline (PostgreSQL JSONB) with SQL funnel, cohort and retention analyses (CTEs, window functions) to find where students drop off
 - Structured logging (Zap) and custom middleware
-- CI/CD with Docker + GitHub Actions, deployed on Hetzner via Dokploy
+- CI/CD with Docker + GitHub Actions, zero-downtime deploys on Hetzner via Dokploy
 
-### ⛓️ [DocSniff](https://github.com/aayampokharel/fyp_backend) — academic certificate blockchain
+### ⛓️ [DocSniff](https://github.com/aayampokharel/fyp_backend): academic certificate blockchain
 `Go` `PostgreSQL` `TCP` `PBFT` `PoW` `RSA` `SHA-256` `Flutter` `Python`
 
-A private, permissioned consortium blockchain for issuing and verifying academic certificates, built from scratch (my final-year project).
+A private, permissioned consortium blockchain for issuing and verifying academic certificates, built from scratch as my final-year project.
 - Hybrid **simplified PoW + PBFT** consensus (Pre-Prepare → Prepare → Commit → Execute); a 4-node network tolerates 1 Byzantine node
 - Custom **raw-TCP peer-to-peer** layer for block propagation and consensus messages
-- RSA-signed consensus messages; **SHA-256 Merkle trees** with inclusion proofs
-- PostgreSQL persistence (8 normalized tables), Go reverse proxy for public QR-code verification
+- RSA-signed consensus messages and **SHA-256 Merkle trees** with inclusion proofs
+- PostgreSQL persistence (8 normalized tables) and a Go reverse proxy for public QR-code verification
 - Python background-removal step (called from Go) for institution logos and signatures
 - Frontend: [Flutter dashboard](https://github.com/aayampokharel/fyp_frontend)
 
 ---
 
-## 📁 All projects
+## 💼 Experience
 
-### Go / backend
+**Backend Developer (Go)** · AsterGaze Technologies · *Intern (4 mo) → Junior Backend Developer (11 mo)*
+- Built modular services with Feature-First Clean Architecture
+- Shipped REST APIs with Gin + Huma (typed, OpenAPI-compliant)
+- Removed N+1 queries in GORM with targeted preloading and tuned slow queries
+- Added a Redis cache-aside layer to cut database read load during traffic spikes
+- Containerized services with Docker for repeatable deployments and easier onboarding
+
+---
+
+<details>
+<summary><b>📁 More projects</b></summary>
+
+<br/>
+
+**Go / backend**
+
 | Project | What it is | Stack |
 |---|---|---|
 | [fyp_backend](https://github.com/aayampokharel/fyp_backend) | DocSniff blockchain core | Go, PostgreSQL, TCP |
-| [gartic_backend](https://github.com/aayampokharel/gartic_backend) | Real-time multiplayer drawing game server: rooms, turn rotation, timers, word selection, spectators | Go, WebSockets |
+| [gartic_backend](https://github.com/aayampokharel/gartic_backend) | Real-time multiplayer drawing game server: rooms, turn rotation, timers, word selection | Go, WebSockets |
 | [SE_drive_backend](https://github.com/aayampokharel/SE_drive_backend) | Cloud storage backend: multipart upload/download, FFmpeg media pipeline | Go, MySQL, FFmpeg |
 | [messenger](https://github.com/aayampokharel/messenger) | Real-time chat app with Go backend | Go, WebSockets, MySQL, Flutter |
 
-### Flutter / mobile
+**Flutter / mobile**
+
 | Project | What it is | Stack |
 |---|---|---|
 | [fyp_frontend](https://github.com/aayampokharel/fyp_frontend) | DocSniff admin and institution dashboard | Flutter Web |
@@ -82,16 +99,7 @@ A private, permissioned consortium blockchain for issuing and verifying academic
 | [bat_app](https://github.com/aayampokharel/bat_app) | Cricket bat catalogue with search, filters, wishlist | Flutter |
 | [todo_list](https://github.com/aayampokharel/todo_list) | To-do app with MySQL sync and in-memory state | Flutter, MySQL |
 
----
-
-## 💼 Experience
-
-**Backend Developer (Go)** · AsterGaze Technologies · May 2025 – 2026
-- Built modular services with Feature-First Clean Architecture
-- Shipped REST APIs with Gin + Huma (typed, OpenAPI-compliant)
-- Removed N+1 queries in GORM using targeted preloading
-- Added a Redis cache-aside layer to cut database read load
-- Containerized services with Docker and supported automated deployments
+</details>
 
 ---
 
